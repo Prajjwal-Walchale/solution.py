@@ -15,7 +15,7 @@ def find_more_than_average():
     count=0
     for x in list_of_marks:
         marks+=x
-    average=marks/len(lsit_of_marks)
+    average=marks/len(list_of_marks)
     for x in list_of_marks:
         if x> average:
            count+=1
